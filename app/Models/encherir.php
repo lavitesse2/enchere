@@ -5,15 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class article extends Model
+class encherir extends Model
 {
     use HasFactory;
-
-    protected $fillable = [
-        'NomArticle',
-        'DescriptionArticle',
-        'PrixArticle',
-
-    ];
-
 }
